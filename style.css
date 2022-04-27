@@ -86,8 +86,8 @@ h1 {
 
 
 .box {
-  height: 415px;
-  width: 450px;
+  height: 70%;
+  width: 70%;
   background-color: beige;
   color: rgb(43,43,43);
   border-radius: 5px;
