@@ -1,3 +1,13 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+  6. Page Styles
+======================================== */
+
+
 /* universel styles */
 
 html, body {
@@ -19,9 +29,8 @@ header {
   position: fixed;
   width: 100%;
   height: 55px;
-  z-index: 1;
-
-  
+  z-index: 3;
+ 
 }
 
 /* nav */
@@ -29,7 +38,6 @@ header {
 nav {
   margin: 0;
   padding: 20px auto;
-
 }
 
 nav li {
@@ -39,85 +47,165 @@ nav li {
   letter-spacing: 1px;
   display: inline-block;
   width: 60px;
- 
 }
 
-/* main */
+.banner_top {
+  position:relative; 
+  height:900px;
+  width: 90%;
+}
+
+.tree_container {
+  position:absolute;
+  z-index:1;
+  width: 1000px;
+  height:650px ;
+  margin:0 auto;
+}
+
+.tree_container a{
+  text-decoration: none;
+  color: rgb(197,23,7);
+}
+
+
+
+.tree_container img{
+  height: 550px;
+  margin-left: 250px;
+}
+
+.tree_container .tree_mama {
+  position:absolute;
+  z-index:2;
+  font-size: 20px;
+  top:150px;
+  left:50px; 
+  width:900px; 
+  height:150px;  
+  text-decoration: none;
+}
+
+/* width:600px; 
+  height:150px; 
+
+main */
 
 main {
+  position:relative;
   padding: 20px 15px;
   margin-bottom: 60px;
-  text-align: center;
+  text-align: center;  
 }
 
 
 h1 {
-  
   background-color: rgb(244, 235, 230) ;
   text-align: center;
   letter-spacing: 15px;
   font-size: 45px;
   color: #885A3A;
   padding: 20px 0;
-  margin-top: 100px;
-  
+  margin-top: 100px; 
+}
+
+p ,
+  h3 {
+  color: rgb(97,97,97);
 }
 
 .grid {
+  position:relative;
   display: grid;
+  grid-template: 1fr 1fr/ 1fr 1fr;
   border: 2px rgb(157,102,72) solid;
-  width: 95%;
-  grid-template-columns: 49% 49%;
-  margin: 10px auto;
-  
+  margin: 20px auto;
 }
 
-.box h2 {
+h2 {
   font-size: 25px;
   letter-spacing: 3px;
+  height: 70px; 
   color: white;
   background-color: rgb(164,97,78);
-  height: 70px; 
   line-height: 70px;
   margin-top: 0;
-
-  
+  border-radius: 9px;
+  text-align: center;  
 }
 
+/*
+.btn {
+  color: white;
+  background-color: rgb(164,97,78);
+  border-radius: 5px;
+  font-size: 25px;
+}
+*/
+  
 
 .box {
-  height: 415px;
-  width: 450px;
+  
   background-color: beige;
   color: rgb(43,43,43);
   border-radius: 5px;
   border: 1px rgb(157,102,72) solid;
   padding: 40px 40px;
-  margin: 20px 20px;
- 
-
+  margin: 40px 35px; 
 }
 
 
-
-img {
+.grid img {
   width: 280px;
 }
 
-
-
-.MAMA {
-  font-weight: bold;
-  color: blue;
+.box-left {
+  width: 280px;
 }
 
 
 /* footer */
 
-.footer {
-  padding: 30px 30px;
-  width: 100%;
-  z-index: 1;
-  margin-bottom: 100px;
+.banner_bottom{
+  margin: 20px 20px;
 }
+
+.journal {
+  padding: 40px 40px;
+  margin: 40px 35px;
+  background-color: beige;
+  color: rgb(43,43,43);
+  border-radius: 5px;
+  border: 1px rgb(157,102,72) solid;
+  text-align: center;
+  z-index: 1;
+  
+}
+
+
+.grid2 {
+  position:relative;
+  grid-template: 1fr/ 50% 50%;  
+  border: 2px rgb(157,102,72) solid;
+  margin: 0 auto;
+}
+
+
+/*
+.box-center{
+  text-align: center;
+  
+
+}
+
+.box-left img {
+  width: 400px;
+  text-align: center;
+
+}
+
+.box-right {
+  text-align: center;
+}
+*/
 
