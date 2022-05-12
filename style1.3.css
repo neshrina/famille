@@ -16,11 +16,14 @@ html, body {
   background-color: rgb(243,236,230);
 }
 
-h1, 
-h2, 
-h3, 
-p {
-  font-family: 'Times New Roman', Times, serif;
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+h2 {
+  font-family: 'Imperial Script', cursive;
 }
 
 
@@ -45,10 +48,11 @@ main {
 /*rgb(217,202,186);*/
 
 h1 {
+  font-family:'Montserrat Alternates', sans-serif;
   background-color: #efcead;
   text-align: center;
-  letter-spacing: 15px;
-  font-size: 45px;
+  letter-spacing: 12px;
+  font-size: 55px;
   color: #885A3A;
   padding: 20px 0;
   margin-top: 100px; 
@@ -67,6 +71,7 @@ h2 {
 }
 
 h3 {
+  font-family:'Plus Jakarta Sans', sans-serif;
   font-size: 22px;
   height: 70px; 
   color: rgb(116,108,105);
@@ -74,16 +79,18 @@ h3 {
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;  
-  font-family: 'Times New Roman', Times, serif;
 }
 
 
-p  {
-  color: rgb(116,108,105);
+p,
+.text ul  {
+  font-family:'Nanum Gothic', sans-serif;
+  color: rgb(91,85,83);
   font-size: 16px;
   font-weight: 500;
   text-align: justify;
   margin: 20px 40px;
+  
 }
 
 /* nav */
@@ -95,7 +102,7 @@ nav {
 
 nav li {
   color: rgb(157,102,72);
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Plus Jakarta Sans', sans-serif;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
@@ -106,7 +113,7 @@ nav li {
   position: absolute;
   border-left: 2px solid rgb(183,176,174);
   display: inline-block;
-  height: 4200px;
+  height: 5700px;
   margin: 0 20px;
 }
 
@@ -186,7 +193,7 @@ nav li {
 }
 
 .ombre4 {
-  background-color: #A77D54;
+  background-color: rgb(189,157,125);
   position: relative;
   width: 300px;
   height: 450px;
